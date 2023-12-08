@@ -18,7 +18,7 @@ TransportAdapterToCamel camelTransport = new TransportAdapterToCamel(camel);
 //продолжаем путь по пескам пустыни
 driver.Travel(camelTransport);
 
-Console.ReadKey();
+ReadKey();
 
 
 
