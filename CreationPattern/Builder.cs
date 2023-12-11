@@ -14,7 +14,7 @@ director.buildFullFeaturedProduct();
 Console.WriteLine(builder.GetProduct().ListPartsOut());
 
 // Паттерн Строитель можно использовать без класса Директор.
-Console.WriteLine("Custom product:");
+//Console.WriteLine("Custom product:");
 builder.BuildPartA();
 builder.BuildPartC();
 Console.Write(builder.GetProduct().ListPartsOut());
